@@ -1,0 +1,132 @@
+[
+    {
+        "label": "remote",
+        "confidence": 0.9497413039207458,
+        "bounding_box": [
+            235,
+            332,
+            301,
+            358
+        ],
+        "mean_depth": 47.04355239868164,
+        "closest_depth": 41.99322509765625,
+        "position": "Center"
+    },
+    {
+        "label": "couch",
+        "confidence": 0.9393154978752136,
+        "bounding_box": [
+            1,
+            196,
+            289,
+            478
+        ],
+        "mean_depth": 56.216224670410156,
+        "closest_depth": 0.08162689208984375,
+        "position": "Left"
+    },
+    {
+        "label": "chair",
+        "confidence": 0.9055571556091309,
+        "bounding_box": [
+            444,
+            193,
+            571,
+            324
+        ],
+        "mean_depth": 89.99803924560547,
+        "closest_depth": 56.68867111206055,
+        "position": "Right"
+    },
+    {
+        "label": "cup",
+        "confidence": 0.8476622700691223,
+        "bounding_box": [
+            363,
+            332,
+            395,
+            378
+        ],
+        "mean_depth": 38.87448501586914,
+        "closest_depth": 34.591278076171875,
+        "position": "Center"
+    },
+    {
+        "label": "dining table",
+        "confidence": 0.7747367024421692,
+        "bounding_box": [
+            199,
+            269,
+            499,
+            478
+        ],
+        "mean_depth": 50.25851058959961,
+        "closest_depth": 18.643341064453125,
+        "position": "Center"
+    },
+    {
+        "label": "dog",
+        "confidence": 0.590464174747467,
+        "bounding_box": [
+            483,
+            324,
+            560,
+            391
+        ],
+        "mean_depth": 68.14566802978516,
+        "closest_depth": 33.86915588378906,
+        "position": "Right"
+    },
+    {
+        "label": "couch",
+        "confidence": 0.46599280834198,
+        "bounding_box": [
+            571,
+            301,
+            639,
+            415
+        ],
+        "mean_depth": 64.24585723876953,
+        "closest_depth": 55.74019241333008,
+        "position": "Right"
+    },
+    {
+        "label": "bowl",
+        "confidence": 0.3501659035682678,
+        "bounding_box": [
+            393,
+            294,
+            438,
+            311
+        ],
+        "mean_depth": 56.74510955810547,
+        "closest_depth": 48.77933120727539,
+        "position": "Center"
+    },
+    {
+        "label": "tv",
+        "confidence": 0.32921773195266724,
+        "bounding_box": [
+            303,
+            174,
+            378,
+            216
+        ],
+        "mean_depth": 97.48527526855469,
+        "closest_depth": 96.8828125,
+        "position": "Center"
+    },
+    {
+        "label": "potted plant",
+        "confidence": 0.30553138256073,
+        "bounding_box": [
+            281,
+            196,
+            303,
+            237
+        ],
+        "mean_depth": 98.05560302734375,
+        "closest_depth": 97.3455810546875,
+        "position": "Center"
+    }
+]

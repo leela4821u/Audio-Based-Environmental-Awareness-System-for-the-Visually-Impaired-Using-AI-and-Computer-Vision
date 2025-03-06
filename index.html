@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+</head>
+<body>
+    <h1>AI Chatbot</h1>
+    <textarea id="user_input" placeholder="Ask a question..." rows="4" cols="50"></textarea>
+    <button onclick="sendQuestion()">Ask</button>
+    <div id="response"></div>
+
+    <script>
+        async function sendQuestion() {
+            const userInput = document.getElementById('user_input').value;
+            const responseDiv = document.getElementById('response');
+            responseDiv.innerHTML = "Thinking...";
+
+            const response = await fetch('http://localhost:5000/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ question: userInput })
+            });
+
+            const data = await response.json();
+            if (data.answer) {
+                responseDiv.innerHTML = "Bot: " + data.answer;
+            } else {
+                responseDiv.innerHTML = "Error: " + data.error;
+            }
+        }
+    </script>
+</body>
+</html>
