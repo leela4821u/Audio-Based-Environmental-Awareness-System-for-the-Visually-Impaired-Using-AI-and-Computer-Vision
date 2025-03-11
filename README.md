@@ -2,6 +2,7 @@
 
 ## Project Files and Descriptions
 
+- **ffull.py** – Its the program with all the below codes integrated. 
 - **fcb2.py** – A chatbot using LLaMA 3.2 locally with context awareness.  
 - **fcbts.py** – An updated version of *fcb2.py* with audio output support.  
 - **fcheck3.py** – Analyzes a given image using YOLO and the MiDaS monocular depth estimation model, then saves the data in *detss.json*.  
